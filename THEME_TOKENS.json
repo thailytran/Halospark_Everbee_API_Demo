@@ -1,0 +1,19 @@
+{
+  "source": "User-supplied HaloSpark EverBee Review Demo video, Oct 2026",
+  "theme": "HaloSpark Dark Research",
+  "colors": {
+    "appBackground": "#0e1218",
+    "sidebar": "#121a23",
+    "panel": "#151e27",
+    "panelElevated": "#192530",
+    "border": "#293643",
+    "textPrimary": "#e1e8f0",
+    "textSecondary": "#8496a8",
+    "primaryBlue": "#277cce",
+    "successTeal": "#28bca1",
+    "warningAmber": "#e5a133",
+    "dangerRed": "#ee7575"
+  },
+  "layout": {"sidebarWidth": 218,"traceWidth": 345,"cardRadius": 8,"sidebarActiveIndicatorWidth": 3},
+  "governance": "Use as a proposed theme overlay; require UI regression and owner approval before altering protected Dashboard/Settings."
+}

@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: halospark-everbee-review-demo
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: REVIEW_BIND_HOST
+        value: 0.0.0.0
+      - key: REVIEW_USERNAME
+        sync: false
+      - key: REVIEW_PASSWORD
+        sync: false
